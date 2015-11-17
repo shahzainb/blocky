@@ -14,8 +14,6 @@ Tasks:
 
 Similar to Tetris but you have to click a block to have matching blocks removed.
 
-Feel free to use whatever libs you need to make it all work.
-
 E.g.,
 
 Given:
