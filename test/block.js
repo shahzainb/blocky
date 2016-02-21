@@ -1,4 +1,4 @@
-import { Block, COLOURS } from '../app/javascript/grid';
+import { Block, COLOURS, BlockGrid } from '../app/javascript/grid';
 import { assert } from 'chai';
 
 describe('Block', () => {
@@ -21,5 +21,9 @@ describe('Block', () => {
 });
 
 describe('BlockGrid', () => {
-
+    const grid = new BlockGrid();
+    
+    it('should be created correctly', () => {
+        assert.ok(grid.grid.length === 10, 'length is valid');
+    });
 });
